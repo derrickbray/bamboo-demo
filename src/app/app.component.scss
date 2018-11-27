@@ -1,17 +1,4 @@
-.app {
-  display: flex;
-  justify-content: space-between;
-}
-
-.main {
-  width: 80%;
-}
-
-.hero {
-  border: 1px solid blue;
-}
-
-.acct {
-  flex-grow: 1;
-  border: 1px solid red;
-}
+@import './styles/global.scss';
+@import './styles/layout.scss';
+@import './styles/hero.scss';
+@import './styles/grid.scss';
