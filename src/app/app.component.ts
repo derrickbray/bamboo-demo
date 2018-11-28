@@ -80,5 +80,29 @@ export class AppComponent {
       docLink: '#',
       type: 'suite'
     },
+    {
+      title: 'PMC Suite',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: '#',
+      docLink: '#',
+      type: 'suite'
+    },
+    {
+      title: 'Discusion Board',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: '#',
+      docLink: '#',
+      type: 'suite'
+    },
+    {
+      title: 'Workflow Conductor',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: '#',
+      docLink: '#',
+      type: 'suite'
+    },
   ];
 }

@@ -17,10 +17,14 @@
       justify-content:flex-end;
       width: 100%;
       &btn {
-        margin-left: 1rem;
+        margin-right: 1rem;
         padding: 0.5rem 0.9rem;
-        // background: grey;
         color: white;
+      }
+      &doc {
+        padding: 0.5rem 0.9rem;
+        background: lightgray;
+        color: black;
       }
     }
   }
