@@ -11,7 +11,7 @@ export class AppComponent {
     {
       title: 'Alert Plus',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Alert-Plus-GreenBG.svg',
       demoLink: 'https:www.google.com',
       docLink: '#',
       type: 'cloud'
@@ -19,7 +19,7 @@ export class AppComponent {
     {
       title: 'Traffic',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Traffic-CP-Blue-BG.svg',
       demoLink: 'https:www.google.com',
       docLink: '#',
       type: 'cloud'
@@ -27,7 +27,7 @@ export class AppComponent {
     {
       title: 'News Plus',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/News-CP-Blue-BG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'cloud'
@@ -35,7 +35,7 @@ export class AppComponent {
     {
       title: 'Calendar Plus',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Calendar-Plus-CP-Blue-BG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'cloud'
@@ -43,7 +43,7 @@ export class AppComponent {
     {
       title: 'List Rollup',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/List-Rollup-CP-Blue-BG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'server'
@@ -51,7 +51,7 @@ export class AppComponent {
     {
       title: 'Calendar Plus',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Calendar-Plus-CP-Blue-BG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'server'
@@ -59,7 +59,7 @@ export class AppComponent {
     {
       title: 'Alert Plus',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Alert-Plus-GreenBG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'server'
@@ -67,7 +67,7 @@ export class AppComponent {
     {
       title: 'Chart Plus',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Chart-Plus-CP-Blue-BG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'server'
@@ -75,7 +75,7 @@ export class AppComponent {
     {
       title: 'Knowledge Base',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Knowledge-Base-OrangeBG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'suite'
@@ -83,7 +83,7 @@ export class AppComponent {
     {
       title: 'PMC Suite',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Project-Management-Central-OrangeBG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'suite'
@@ -91,7 +91,7 @@ export class AppComponent {
     {
       title: 'Discusion Board',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Discussion-Board-Orange-BG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'suite'
@@ -99,7 +99,7 @@ export class AppComponent {
     {
       title: 'Workflow Conductor',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
-      iconLink: 'http://www.fillmurray.com/300/200',
+      iconLink: 'https://bamboosolutions.com/wp-content/uploads/2018/06/Workflow-Conductor-OrangeBG.svg',
       demoLink: '#',
       docLink: '#',
       type: 'suite'

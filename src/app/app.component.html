@@ -8,14 +8,22 @@
     <div class="grid">
 
       <div  *ngFor="let product of products" class="grid-card">
-        <img src="{{product.iconLink}}" class="grid-card__img">
+        <div *ngIf="product.type === 'cloud'" style="background: #bbd80a;" class="grid-card__wrap">
+          <img src="{{product.iconLink}}" class="grid-card__img">
+        </div>
+        <div *ngIf="product.type === 'server'" style="background: #44aee2;" class="grid-card__wrap">
+          <img src="{{product.iconLink}}" class="grid-card__img">
+        </div>
+        <div *ngIf="product.type === 'suite'" style="background: #ff9801;" class="grid-card__wrap">
+          <img src="{{product.iconLink}}" class="grid-card__img">
+        </div>
         <div class="grid-card__body">
           <h4 class="grid-card__title">{{product.title}}</h4>
           <p class="grid-card__text">{{product.description}}</p>
           <div class="grid-card__box">
-            <a *ngIf="product.type === 'cloud'" style="background: green;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
-            <a *ngIf="product.type === 'server'" style="background: blue;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
-            <a *ngIf="product.type === 'suite'" style="background: red;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
+            <a *ngIf="product.type === 'cloud'" style="background: #bbd80a;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
+            <a *ngIf="product.type === 'server'" style="background: #44aee2;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
+            <a *ngIf="product.type === 'suite'" style="background: #ff9801;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
             <a href="{{product.docLink}}" class="grid-card__boxdoc">Docs</a>
           </div>
         </div>
