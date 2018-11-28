@@ -1,0 +1,29 @@
+.contact {
+  &-heading {
+    margin: 0;
+    background: black;
+    color: white;
+    padding: 1rem;
+  }
+  &-body {
+    margin-bottom: 1.3rem;
+    padding: 1rem;
+    background: #e5e5e5;
+    &__item {
+      margin: 1rem 0;
+      &-small {
+        font-size: 0.8rem;
+      }
+    }
+  }
+}
+
+.teaser {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  background: black;
+  color: white;
+  &-half {
+    width: 50%;
+  }
+}
