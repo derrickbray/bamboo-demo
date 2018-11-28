@@ -7,14 +7,16 @@
     </div>
     <div class="grid">
 
-      <div class="grid-card">
-        <img src="http://www.fillmurray.com/300/200" class="grid-card__img">
+      <div  *ngFor="let product of products" class="grid-card">
+        <img src="{{product.iconLink}}" class="grid-card__img">
         <div class="grid-card__body">
-          <h4 class="grid-card__title">Chart Plus</h4>
-          <p class="grid-card__text">Automatically send cutomized conditional email notifs and reminders in sharepoint. </p>
+          <h4 class="grid-card__title">{{product.title}}</h4>
+          <p class="grid-card__text">{{product.description}}</p>
           <div class="grid-card__box">
-            <a href="#" class="grid-card__boxbtn">Demo</a>
-            <a href="#" class="grid-card__boxbtn">Docs</a>
+            <a *ngIf="product.type === 'cloud'" style="background: green;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
+            <a *ngIf="product.type === 'server'" style="background: blue;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
+            <a *ngIf="product.type === 'suite'" style="background: red;" href="{{product.demoLink}}" class="grid-card__boxbtn">Demo</a>
+            <a href="{{product.docLink}}" class="grid-card__boxbtn">Docs</a>
           </div>
         </div>
       </div>

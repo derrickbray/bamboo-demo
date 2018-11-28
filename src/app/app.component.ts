@@ -12,7 +12,15 @@ export class AppComponent {
       title: 'Alert Plus',
       description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
       iconLink: 'http://www.fillmurray.com/300/200',
-      demoLink: '#',
+      demoLink: 'https:www.google.com',
+      docLink: '#',
+      type: 'cloud'
+    },
+    {
+      title: 'Traffic',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: 'https:www.google.com',
       docLink: '#',
       type: 'cloud'
     },
@@ -31,6 +39,46 @@ export class AppComponent {
       demoLink: '#',
       docLink: '#',
       type: 'cloud'
+    },
+    {
+      title: 'List Rollup',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: '#',
+      docLink: '#',
+      type: 'server'
+    },
+    {
+      title: 'Calendar Plus',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: '#',
+      docLink: '#',
+      type: 'server'
+    },
+    {
+      title: 'Alert Plus',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: '#',
+      docLink: '#',
+      type: 'server'
+    },
+    {
+      title: 'Chart Plus',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: '#',
+      docLink: '#',
+      type: 'server'
+    },
+    {
+      title: 'Knowledge Base',
+      description: 'Automatically send cutomized conditional email notifs and reminders in sharepoint.',
+      iconLink: 'http://www.fillmurray.com/300/200',
+      demoLink: '#',
+      docLink: '#',
+      type: 'suite'
     },
   ];
 }
