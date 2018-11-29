@@ -3,3 +3,11 @@
 @import './styles/hero.scss';
 @import './styles/grid.scss';
 @import './styles/contact.scss';
+
+.right {
+  text-align: right;
+}
+
+.scale-up {
+  transform: scale(1.1);
+}
